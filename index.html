@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Mahasiswa Semester 3</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        scroll-behavior: smooth;
+      }
+      .navbar {
+        background-color: rgb(75, 138, 231);
+      }
+      .navbar-brand,
+      .navbar .nav-link {
+        color: white;
+      }
+      .navbar .nav-link:hover {
+        color: #e0eaff;
+      }
+      .avatar-img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      .hero {
+        background: black;
+      }
+      .card-img {
+        width: 100%;
+        height: 210px;
+        object-fit: cover;
+      }
+      .card-title-custom {
+        color: rgb(60, 60, 240);
+      }
+      .form-kontak {
+        max-width: 600px;
+        background: black;
+        color: white;
+      }
+      .form-kontak .form-label {
+        color: white;
+      }
+      .form-kontak .form-text {
+        color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg px-3 shadow-sm">
+      <div class="container-fluid">
+        <img class="avatar-img me-2" src="assets/C.jpeg" alt="Foto profil" />
+        <a class="navbar-brand fw-bold" href="#Beranda">Portofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="Beranda" class="hero text-white text-center py-5">
+      <div class="container">
+        <span class="badge rounded-pill text-bg-dark">Perkenalkan</span>
+        <h1 class="mt-3">Profil Mahasiswa Semester 3</h1>
+        <h2>Halo, Saya Muhammad Salman Alfarizie</h2>
+        <p>
+          Saya adalah mahasiswa Pendidikan Sistem dan Teknologi Informasi UPI
+          Kampus di Purwakarta.
+        </p>
+        <a
+          class="btn btn-outline-light me-2"
+          href="https://www.instagram.com/alfarixsv/"
+          target="_blank"
+          ><i class="bi bi-instagram"></i> Instagram</a
+        >
+        <a
+          class="btn btn-outline-light"
+          href="https://github.com/MuhammadSalmanAlfarizie"
+          target="_blank"
+          ><i class="bi bi-github"></i> GitHub</a
+        >
+      </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section id="Tentang" class="container py-5">
+      <h2 class="text-center mb-4">Tentang Saya</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <div class="card-body">
+              <h5 class="card-title text-center">Asal</h5>
+              <p class="card-text">
+                Saya berasal dari Subang namun berdarah Jawa Sunda.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <div class="card-body">
+              <h5 class="card-title text-center">Hobi</h5>
+              <p class="card-text">
+                Hobi saya adalah bermain basket dan mendengarkan lagu.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <div class="card-body">
+              <h5 class="card-title text-center">Hal yang disukai</h5>
+              <p class="card-text">
+                Saya menyukai lagu-lagu dari Arash Buana dan penyanyi lainnya.
+                Selain itu, saya juga menyukai sastra.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <div class="card-body">
+              <h5 class="card-title text-center">Fun Fact</h5>
+              <p class="card-text">
+                Saya tim bubur tidak diaduk, suka menghirup aroma parfum, dan
+                mudah tertidur kalau tidak melakukan kegiatan apa pun.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-dark mt-4 mb-0">
+        Jikalau ingin mengenal saya lebih jauh, bisa menghubungi kontak yang
+        tersedia.
+      </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section id="Portofolio" class="container py-5">
+      <h2 class="text-center mb-4">Portofolio Saya</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <img src="assets/SLK.jpeg" class="card-img" alt="Pengalaman SLK" />
+            <div class="card-body">
+              <i class="bi bi-heart"></i>
+              <h5 class="mt-2 card-title-custom">
+                Pengalaman ketika mengikuti SLK
+              </h5>
+              <p class="card-text">
+                Pengalaman berharga ketika mengikuti kegiatan SLK. Kala itu saya
+                masih mahasiswa baru dan mencoba mengikuti lomba di kegiatan
+                tersebut.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <img
+              src="assets/P Sospro.jpeg"
+              class="card-img"
+              alt="Pengawas SOSPRO"
+            />
+            <div class="card-body">
+              <i class="bi bi-heart"></i>
+              <h5 class="mt-2 card-title-custom">
+                Pengalaman menjadi pengawas SOSPRO
+              </h5>
+              <p class="card-text">
+                Pada saat itu saya baru merasakan pengalaman mengenai
+                kepengawasan di program kerja HIMA.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <img
+              src="assets/P Mikasi.jpeg"
+              class="card-img"
+              alt="Mikasi Estifest"
+            />
+            <div class="card-body">
+              <i class="bi bi-heart"></i>
+              <h5 class="mt-2 card-title-custom">
+                Foto bersama my kakom saat kegiatan Mikasi Estifest
+              </h5>
+              <p class="card-text">
+                Foto diambil ketika rangkaian kegiatan Mikasi Estifest
+                berlangsung, tepatnya pada closing saat ada band yang tampil.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card border-primary border-2 h-100">
+            <img
+              src="assets/P Mokaku.jpeg"
+              class="card-img"
+              alt="Pengawas MOKA-KU"
+            />
+            <div class="card-body">
+              <i class="bi bi-heart"></i>
+              <h5 class="mt-2 card-title-custom">
+                Pengalaman menjadi pengawas MOKA-KU
+              </h5>
+              <p class="card-text">
+                Pengalaman berharga menjadi bagian dari pengawas MOKA-KU.
+                Kegiatannya seru, meskipun melelahkan karena harus mempersiapkan
+                acara.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Kontak -->
+    <section id="kontak" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Kontak Saya</h2>
+        <form
+          id="formKontak"
+          class="form-kontak mx-auto p-4 rounded shadow-sm"
+          novalidate
+        >
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nama"
+              placeholder="Masukkan nama Anda..."
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Alamat Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="nama@gmail.com"
+              required
+            />
+            <div class="form-text">Masukkan alamat email yang valid.</div>
+          </div>
+          <div class="mb-3">
+            <label for="pilihan" class="form-label">Pilihan Pesan</label>
+            <select class="form-select" id="pilihan" required>
+              <option value="">Pilih Salah Satu</option>
+              <option value="pesan">Pesan</option>
+              <option value="kritik">Kritik</option>
+              <option value="saran">Saran</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan/Kritik/Saran</label>
+            <textarea
+              class="form-control"
+              id="pesan"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="file" class="form-label">Gunakan file (opsional)</label>
+            <input class="form-control" type="file" id="file" />
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary w-100"
+            onclick="konfirmasiPesan()"
+          >
+            <i class="bi bi-send"></i> Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Modal Bootstrap -->
+    <div
+      class="modal fade"
+      id="modalKonfirmasi"
+      tabindex="-1"
+      aria-labelledby="judulModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="judulModal">Konfirmasi Pengiriman</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Tutup"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Apakah Anda yakin ingin mengirim pesan ini?
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Batal
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="kirimPesan()"
+            >
+              Ya, Kirim
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <small>&copy; 2026 - Praktikum Pemrograman Dasar</small>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+      function konfirmasiPesan() {
+        const nama = document.getElementById("nama").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const pilihan = document.getElementById("pilihan").value;
+        const pesan = document.getElementById("pesan").value.trim();
+
+        if (!nama || !email || !pilihan || !pesan) {
+          Swal.fire(
+            "Oops!",
+            "Mohon lengkapi nama, email, pilihan pesan, dan pesan terlebih dahulu.",
+            "warning",
+          );
+          return;
+        }
+
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          Swal.fire(
+            "Email tidak valid",
+            "Silakan masukkan alamat email dengan benar.",
+            "warning",
+          );
+          return;
+        }
+
+        bootstrap.Modal.getOrCreateInstance(
+          document.getElementById("modalKonfirmasi"),
+        ).show();
+      }
+
+      function kirimPesan() {
+        bootstrap.Modal.getOrCreateInstance(
+          document.getElementById("modalKonfirmasi"),
+        ).hide();
+
+        Swal.fire({
+          title: "Berhasil!",
+          text: "Formulir berhasil divalidasi. Pesan belum dikirim ke server.",
+          icon: "success",
+          confirmButtonText: "Oke",
+        });
+      }
+    </script>
+  </body>
+</html>
